@@ -3,6 +3,7 @@ import FAQs from "@/components/common/faq"
 import Features from "@/components/common/features"
 import { Footer } from "@/components/common/footer"
 import { Hero } from "@/components/common/hero"
+import Platforms from "@/components/common/platforms"
 import { Twitter } from "lucide-react"
 
 function LandingPage() {
@@ -37,6 +38,7 @@ function LandingPage() {
       <Features/>
       {/* <Pricing /> */}
       <AllScreens />
+      <Platforms />
       <FAQs />
       <Footer {...footerData} />
     </div>

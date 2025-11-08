@@ -15,9 +15,9 @@ export async function submitScore(handle: string, arrows: number, time: number):
     // Fetch Twitter profile image
     let profileImage: string | null = null
     try {
-      const response = await fetch(`/api/twitter-profile?handle=${encodeURIComponent(handle)}`)
+      const response = await fetch(`https://unavatar.io/x/${handle.replace('@','')}`)
       const data = await response.json()
-      profileImage = data.profileImage
+      profileImage = data
     } catch (error) {
       console.error("Error fetching Twitter profile image:", error)
     }

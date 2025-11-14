@@ -25,7 +25,7 @@ function LandingPage() {
     ],
     legalLinks: [
       { href: "/privacy-policy", label: "Privacy Policy" },
-      { href: "/terms", label: "Terms of Service" },
+      { href: "/terms", label: "Terms of Use" },
     ],
     copyright: {
       text: `© ${new Date().getFullYear()} Subwise. All rights reserved.`,

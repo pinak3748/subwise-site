@@ -1,40 +1,141 @@
 function TermsAndConditions() {
   return (
-    <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16 max-w-4xl">
+    <div className="container mx-auto max-w-4xl px-4 py-12 lg:px-8 lg:py-16">
       <article className="prose prose-slate dark:prose-invert max-w-none">
-      <img src="/logo.png" alt="Subwise Logo" className="size-16 mb-6 " />
-      
-        <h1 className="text-3xl font-bold mb-8">Terms & Conditions</h1>
-        
-        <p className="mb-6">
-          These terms and conditions apply to the Subwise app (hereby referred to as "Application") for mobile devices that was created by Pinak Faldu (hereby referred to as "Service Provider") as a Freemium service.
-        </p>
+        <img src="/logo.png" alt="Subwise Logo" className="mb-6 size-16" />
+
+        <h1 className="mb-8 text-3xl font-bold">Terms &amp; Conditions</h1>
+
+        <div className="not-prose mb-8 rounded-lg border bg-muted/40 p-4 text-sm">
+          <p className="mb-2 font-semibold">App &amp; Developer Information</p>
+          <ul className="space-y-1 text-muted-foreground">
+            <li>
+              <strong className="text-foreground">App name:</strong> Subwise - Track Subscriptions
+            </li>
+            <li>
+              <strong className="text-foreground">Package name:</strong> com.subwise.app
+            </li>
+            <li>
+              <strong className="text-foreground">Developer:</strong> Pinak Faldu
+            </li>
+            <li>
+              <strong className="text-foreground">Contact:</strong>{' '}
+              <a href="mailto:subwise.apps@gmail.com" className="text-primary hover:underline">
+                subwise.apps@gmail.com
+              </a>
+            </li>
+            <li>
+              <strong className="text-foreground">Effective date:</strong> August 31, 2026
+            </li>
+          </ul>
+        </div>
 
         <p className="mb-6">
-          Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application.
+          These Terms &amp; Conditions (&quot;Terms&quot;) govern your use of the Subwise mobile app
+          (&quot;Application&quot;, &quot;Service&quot;) provided by Pinak Faldu (&quot;Service
+          Provider&quot;, &quot;we&quot;, &quot;us&quot;). By creating an account or using Subwise, you
+          agree to these Terms.
         </p>
 
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">1. Service Description</h2>
+        <p className="mb-6">
+          Subwise helps you track subscriptions and recurring expenses. An account is required to use
+          the Application. Premium features require an active paid subscription or lifetime purchase as
+          shown in the app at the time of purchase.
+        </p>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">2. Subscription Services</h2>
+
+        <h3 className="mt-6 mb-4 text-xl font-semibold">2.1 Available plans</h3>
         <p className="mb-4">
-          Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.
+          Subwise may offer auto-renewable subscriptions (such as weekly or annual plans) and, where
+          available, a one-time lifetime purchase. Current prices, billing periods, and plan names are
+          always shown in the app and in Google Play or the Apple App Store at the time of purchase.
+        </p>
+        <p className="mb-6 text-sm italic">
+          Prices may vary by region, currency, and platform. The price displayed in the app at checkout
+          is the price you will be charged.
         </p>
 
-        <p className="mb-4">
-          The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.
-        </p>
-
-        <p className="mb-4">
-          The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advise against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.
-        </p>
-
-        <p className="mb-4">
-          Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:
-        </p>
-
-        <ul className="list-disc pl-6 mb-6 space-y-2">
+        <h3 className="mt-6 mb-4 text-xl font-semibold">2.2 Auto-renewal</h3>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>Subscriptions automatically renew unless cancelled before the end of the current period</li>
           <li>
-            <a 
-              href="https://policies.google.com/terms" 
-              target="_blank" 
+            Your app store account is charged for renewal within 24 hours before the current period ends
+          </li>
+          <li>
+            You can manage or cancel subscriptions in your device&apos;s app store subscription settings
+          </li>
+          <li>Lifetime purchases are one-time payments and do not auto-renew</li>
+        </ul>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">3. Payment and Billing</h2>
+        <p className="mb-6">
+          All payments are processed by Google Play or the Apple App Store. We do not store your full
+          payment card details. Billing, refunds, and payment disputes are handled according to the
+          policies of the app store where you purchased.
+        </p>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">4. Cancellation</h2>
+
+        <p className="mb-4">
+          <strong>For Android users:</strong>
+        </p>
+        <ol className="mb-6 list-decimal space-y-2 pl-6">
+          <li>Open the Google Play Store app</li>
+          <li>Tap your profile icon → Payments &amp; subscriptions → Subscriptions</li>
+          <li>Select Subwise and tap Cancel subscription</li>
+        </ol>
+
+        <p className="mb-4">
+          <strong>For iOS users:</strong>
+        </p>
+        <ol className="mb-6 list-decimal space-y-2 pl-6">
+          <li>Open Settings on your iPhone or iPad</li>
+          <li>Tap your name → Subscriptions</li>
+          <li>Select Subwise and tap Cancel Subscription</li>
+        </ol>
+
+        <p className="mb-6">
+          Cancelling a subscription stops future charges but does not delete your Subwise account. You
+          can delete your account separately in Settings → Delete Account.
+        </p>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">5. Refunds</h2>
+        <p className="mb-6">
+          Refund requests must be submitted through Google Play or the Apple App Store. Subwise does not
+          control app store refund decisions.
+        </p>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">6. Free Trials</h2>
+        <p className="mb-6">
+          If a free trial is offered for a subscription plan, the trial length and price after the trial
+          will be shown in the app and app store checkout flow. You will be charged when the trial ends
+          unless you cancel before it expires.
+        </p>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">7. Your Data</h2>
+        <p className="mb-6">
+          Subwise stores the subscription information you enter and syncs it to the cloud so you can
+          access it across sessions. Our use of your data is described in our{' '}
+          <a href="/privacy-policy" className="text-primary hover:underline">
+            Privacy Policy
+          </a>
+          .
+        </p>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">8. Acceptable Use</h2>
+        <p className="mb-6">
+          You may not copy, modify, reverse engineer, or misuse the Application. All intellectual
+          property rights in Subwise remain with the Service Provider.
+        </p>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">9. Third-Party Services</h2>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>
+            <a
+              href="https://policies.google.com/terms"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
@@ -42,195 +143,44 @@ function TermsAndConditions() {
             </a>
           </li>
           <li>
-            <a 
-              href="https://configcat.com/policies/" 
-              target="_blank" 
+            <a
+              href="https://firebase.google.com/terms"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              ConfigCat
+              Google Firebase
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.revenuecat.com/terms"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              RevenueCat
             </a>
           </li>
         </ul>
 
-        <p className="mb-4">
-          Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.
-        </p>
-
-        <p className="mb-4">
-          If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.
-        </p>
-
-        <p className="mb-4">
-          Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.
-        </p>
-
-        <p className="mb-4">
-          In terms of the Service Provider's responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the application.
-        </p>
-
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">10. Changes</h2>
         <p className="mb-6">
-          The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.
+          We may update these Terms from time to time. Continued use of the Application after changes
+          are posted constitutes acceptance of the updated Terms.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-4">2. Subscription Services</h2>
-
-        <h3 className="text-xl font-semibold mt-6 mb-4">2.1 Available Subscriptions</h3>
-        
-        <p className="mb-4">
-          Subwise offers the following auto-renewable subscription options:
-        </p>
-
-        <ul className="list-disc pl-6 mb-6 space-y-2">
-          <li>Weekly Subscription: $1.99/week</li>
-          <li>Annual Subscription: $34.99/year</li>
-        </ul>
-
-        <p className="mb-6 text-sm italic">
-          <strong>Note:</strong> Prices may vary by location and are subject to change. Current pricing is displayed in the app at the time of purchase.
-        </p>
-
-        <h3 className="text-xl font-semibold mt-6 mb-4">2.2 Auto-Renewal Terms</h3>
-
-        <p className="mb-4">
-          <strong>Important Subscription Information:</strong>
-        </p>
-
-        <ul className="list-disc pl-6 mb-6 space-y-2">
-          <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period</li>
-          <li>Your account will be charged for renewal within 24 hours prior to the end of the current period</li>
-          <li>Weekly subscriptions renew every 7 days</li>
-          <li>Yearly subscriptions renew every 365 days</li>
-          <li>You can manage your subscription and turn off auto-renewal in your device's account settings after purchase</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">3. Payment and Billing</h2>
-
-        <h3 className="text-xl font-semibold mt-6 mb-4">3.1 Payment Processing</h3>
-        
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">Contact</h2>
         <p className="mb-6">
-          All subscription payments are processed through your device's app store (Apple App Store or Google Play Store). Payment will be charged to your app store account upon confirmation of purchase.
+          Questions about these Terms or your subscription? Email{' '}
+          <a href="mailto:subwise.apps@gmail.com" className="text-primary hover:underline">
+            subwise.apps@gmail.com
+          </a>
+          . For billing issues, you can also use Restore Purchases in the app.
         </p>
-
-        <h3 className="text-xl font-semibold mt-6 mb-4">3.2 Price Changes</h3>
-        
-        <p className="mb-6">
-          We reserve the right to modify subscription prices at any time. Price changes will not affect existing subscriptions until renewal, and you will be notified of any price changes in advance.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">4. Cancellation Policy</h2>
-
-        <h3 className="text-xl font-semibold mt-6 mb-4">4.1 How to Cancel</h3>
-
-        <p className="mb-4">
-          <strong>For iOS users:</strong>
-        </p>
-
-        <ol className="list-decimal pl-6 mb-6 space-y-2">
-          <li>Open the Settings app on your iPhone or iPad</li>
-          <li>Tap your name at the top</li>
-          <li>Tap "Subscriptions"</li>
-          <li>Find Subwise and tap it</li>
-          <li>Tap "Cancel Subscription"</li>
-        </ol>
-
-        <p className="mb-4">
-          <strong>For Android users:</strong>
-        </p>
-
-        <ol className="list-decimal pl-6 mb-6 space-y-2">
-          <li>Open the Google Play Store app</li>
-          <li>Tap menu → Subscriptions</li>
-          <li>Find Subwise and tap it</li>
-          <li>Tap "Cancel Subscription"</li>
-        </ol>
-
-        <h3 className="text-xl font-semibold mt-6 mb-4">4.2 Cancellation Terms</h3>
-
-        <ul className="list-disc pl-6 mb-6 space-y-2">
-          <li>You can cancel your subscription at any time</li>
-          <li>Cancellation takes effect at the end of your current billing period</li>
-          <li>You will continue to have access to premium features until the end of the paid period</li>
-          <li>No refunds are provided for partial subscription periods</li>
-          <li>You must cancel at least 24 hours before your renewal date to avoid being charged for the next period</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">5. Refund Policy</h2>
-        
-        <p className="mb-4">
-          All sales are final. Refund requests must be made directly through your device's app store:
-        </p>
-
-        <ul className="list-disc pl-6 mb-6 space-y-2">
-          <li><strong>iOS:</strong> Submit refund requests through Apple's Report a Problem website</li>
-          <li><strong>Android:</strong> Request refunds through Google Play Store customer service</li>
-        </ul>
-
-        <p className="mb-6">
-          Subwise does not control app store refund policies and cannot guarantee refund approval.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">6. Free Trial (if applicable)</h2>
-        
-        <p className="mb-6">
-          If a free trial is offered, you will be charged the full subscription price when the trial period ends unless you cancel before the trial expires. Free trials are limited to one per user.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">7. Age Requirements</h2>
-        
-        <p className="mb-6">
-          Subwise is suitable for all ages. Users under 18 should obtain parental consent before subscribing to Subwise premium features.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">8. Cloud Sync and Data Storage</h2>
-        
-        <p className="mb-4">
-          Cloud sync is a premium feature available to subscribers:
-        </p>
-
-        <ul className="list-disc pl-6 mb-6 space-y-2">
-          <li>Synced data includes saved subscription information and app preferences</li>
-          <li>We do not guarantee permanent storage of cloud data</li>
-          <li>You are responsible for maintaining local backups of important data</li>
-          <li>We may delete cloud data after extended periods of account inactivity</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Changes to These Terms and Conditions</h2>
-        
-        <p className="mb-6">
-          The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.
-        </p>
-
-        <p className="mb-6">
-          These terms and conditions are effective as of 2025-11-04
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-8 mb-4">Contact Information</h2>
-        
-        <p className="mb-4">
-          If you have questions about these terms of use or your subscription, please contact us:
-        </p>
-
-        <ul className="list-disc pl-6 mb-6 space-y-2">
-          <li>Email: <a href="mailto:subwise.apps@gmail.com" className="text-primary hover:underline">subwise.apps@gmail.com</a></li>
-        </ul>
-
-        <p className="mb-6">
-          For subscription-related issues, you can also use the "Restore Purchases" option in the app.
-        </p>
-
-        <div className="mt-8 p-4 bg-muted rounded-lg">
-          <p className="font-semibold mb-2">Subwise Subscriptions</p>
-          <p className="text-sm">
-            Weekly: $1.99/week • Yearly: $34.99/year
-          </p>
-          <p className="text-sm text-muted-foreground">
-            Auto-renewable • Cancel anytime • No refunds for partial periods
-          </p>
-        </div>
       </article>
     </div>
-  )
+  );
 }
 
-export default TermsAndConditions
+export default TermsAndConditions;

@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
 import { NotFound, RootErrorBoundary } from './page';
 import LandingPage from './page/landingPage';
+import DeleteAccount from './page/delete-account';
 import PrivacyPolicy from './page/privacy-policy';
 import TermsAndConditions from './page/terms-and-conditions';
 
@@ -21,6 +22,11 @@ const App = () => {
         <Route
           path="/terms"
           element={<TermsAndConditions />}
+          errorElement={<RootErrorBoundary />}
+        />
+        <Route
+          path="/delete-account"
+          element={<DeleteAccount />}
           errorElement={<RootErrorBoundary />}
         />
         <Route path="*" element={<NotFound />} />

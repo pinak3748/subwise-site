@@ -2,200 +2,197 @@ function PrivacyPolicy() {
   return (
     <div className="container mx-auto max-w-4xl px-4 py-12 lg:px-8 lg:py-16">
       <article className="prose prose-slate dark:prose-invert max-w-none">
-        <img src="/logo.png" alt="Subwise Logo" className="size-16 mb-6 " />
+        <img src="/logo.png" alt="Subwise Logo" className="mb-6 size-16" />
 
         <h1 className="mb-8 text-3xl font-bold">Privacy Policy</h1>
 
-        <p className="mb-6">
-          This privacy policy applies to the Subwise app (hereby referred to as "Application") for
-          mobile devices that was created by Pinak Faldu (hereby referred to as "Service Provider")
-          as a Freemium service. This service is intended for use "AS IS".
-        </p>
-
-        <h2 className="mt-8 mb-4 text-2xl font-semibold">Information Collection and Use</h2>
-
-        <p className="mb-4">
-          The Application collects information when you download and use it. This information may
-          include information such as
-        </p>
-
-        <ul className="mb-6 list-disc space-y-2 pl-6">
-          <li>Your device's Internet Protocol address (e.g. IP address)</li>
-          <li>
-            The pages of the Application that you visit, the time and date of your visit, the time
-            spent on those pages
-          </li>
-          <li>The time spent on the Application</li>
-          <li>The operating system you use on your mobile device</li>
-        </ul>
-
-        <p className="mb-4">
-          The Application does not gather precise information about the location of your mobile
-          device.
-        </p>
-
-        <p className="mb-4">
-          The Application collects your device's location, which helps the Service Provider
-          determine your approximate geographical location and make use of in below ways:
-        </p>
-
-        <ul className="mb-6 list-disc space-y-2 pl-6">
-          <li>
-            <strong>Geolocation Services:</strong> The Service Provider utilizes location data to
-            provide features such as personalized content, relevant recommendations, and
-            location-based services.
-          </li>
-          <li>
-            <strong>Analytics and Improvements:</strong> Aggregated and anonymized location data
-            helps the Service Provider to analyze user behavior, identify trends, and improve the
-            overall performance and functionality of the Application.
-          </li>
-          <li>
-            <strong>Third-Party Services:</strong> Periodically, the Service Provider may transmit
-            anonymized location data to external services. These services assist them in enhancing
-            the Application and optimizing their offerings.
-          </li>
-        </ul>
-
-        <p className="mb-4">
-          The Service Provider may use the information you provided to contact you from time to time
-          to provide you with important information, required notices and marketing promotions.
-        </p>
+        <div className="not-prose mb-8 rounded-lg border bg-muted/40 p-4 text-sm">
+          <p className="mb-2 font-semibold">App &amp; Developer Information</p>
+          <ul className="space-y-1 text-muted-foreground">
+            <li>
+              <strong className="text-foreground">App name:</strong> Subwise - Track Subscriptions
+            </li>
+            <li>
+              <strong className="text-foreground">Package name:</strong> com.subwise.app
+            </li>
+            <li>
+              <strong className="text-foreground">Developer:</strong> Pinak Faldu
+            </li>
+            <li>
+              <strong className="text-foreground">Contact:</strong>{' '}
+              <a href="mailto:subwise.apps@gmail.com" className="text-primary hover:underline">
+                subwise.apps@gmail.com
+              </a>
+            </li>
+            <li>
+              <strong className="text-foreground">Effective date:</strong> August 31, 2026
+            </li>
+          </ul>
+        </div>
 
         <p className="mb-6">
-          For a better experience, while using the Application, the Service Provider may require you
-          to provide us with certain personally identifiable information, including but not limited
-          to pinakfaldu3748@gmail.com. The information that the Service Provider request will be
-          retained by them and used as described in this privacy policy.
+          This Privacy Policy describes how Subwise (&quot;Application&quot;, &quot;we&quot;, &quot;us&quot;)
+          collects, uses, stores, and deletes information when you use the Subwise mobile app. Subwise
+          is a subscription-tracking app that requires an account and a paid subscription to use its
+          features.
         </p>
 
-        <h2 className="mt-8 mb-4 text-2xl font-semibold">Third Party Access</h2>
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">Information We Collect</h2>
 
+        <h3 className="mt-6 mb-3 text-xl font-semibold">Account information</h3>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>Name and email address when you create an account or sign in</li>
+          <li>Profile photo URL if you sign in with Google</li>
+          <li>Firebase user ID used to identify your account</li>
+        </ul>
+
+        <h3 className="mt-6 mb-3 text-xl font-semibold">Subscription and financial data you enter</h3>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>Subscription names, amounts, currencies, billing cycles, and notes</li>
+          <li>Payment method labels and metadata you choose to save (for example, last four digits or UPI ID)</li>
+          <li>Transaction history linked to your subscriptions</li>
+        </ul>
+
+        <h3 className="mt-6 mb-3 text-xl font-semibold">Purchase information</h3>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>Subwise premium subscription and purchase history processed through Google Play or the Apple App Store via RevenueCat</li>
+        </ul>
+
+        <h3 className="mt-6 mb-3 text-xl font-semibold">Device and app preferences</h3>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>Notification preferences (reminder timing and settings) stored on your device</li>
+          <li>Onboarding and app setup status stored on your device</li>
+        </ul>
+
+        <h3 className="mt-6 mb-3 text-xl font-semibold">Information we do not collect</h3>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>Precise or approximate location</li>
+          <li>Contacts, photos, camera, microphone, or SMS data</li>
+          <li>Advertising identifiers for ad targeting</li>
+          <li>In-app analytics or crash-reporting SDK data beyond what our service providers process</li>
+        </ul>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">How We Use Information</h2>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>Create and manage your account</li>
+          <li>Store and sync your subscription data in the cloud</li>
+          <li>Send local renewal reminders if you enable notifications</li>
+          <li>Process and validate premium subscriptions</li>
+          <li>Respond to support requests and legal obligations</li>
+        </ul>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">Where Data Is Stored</h2>
+        <ul className="mb-6 list-disc space-y-2 pl-6">
+          <li>
+            <strong>Cloud:</strong> Firebase Authentication and Cloud Firestore (Google) store your account
+            and subscription data under your user ID
+          </li>
+          <li>
+            <strong>On your device:</strong> SharedPreferences store notification and onboarding settings;
+            scheduled reminders are stored locally by the operating system
+          </li>
+        </ul>
+
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">Third-Party Services</h2>
         <p className="mb-4">
-          Only aggregated, anonymized data is periodically transmitted to external services to aid
-          the Service Provider in improving the Application and their service. The Service Provider
-          may share your information with third parties in the ways that are described in this
-          privacy statement.
+          We use trusted third-party services to operate Subwise. Each provider processes data according
+          to its own privacy policy:
         </p>
-
-        <p className="mb-4">
-          Please note that the Application utilizes third-party services that have their own Privacy
-          Policy about handling data. Below are the links to the Privacy Policy of the third-party
-          service providers used by the Application:
-        </p>
-
         <ul className="mb-6 list-disc space-y-2 pl-6">
           <li>
             <a
-              href="https://www.google.com/policies/privacy/"
+              href="https://firebase.google.com/support/privacy"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              Google Play Services
-            </a>
+              Google Firebase
+            </a>{' '}
+            — authentication and cloud database
           </li>
           <li>
             <a
-              href="https://configcat.com/policies/privacy/"
+              href="https://www.revenuecat.com/privacy"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              ConfigCat
-            </a>
+              RevenueCat
+            </a>{' '}
+            — subscription management
+          </li>
+          <li>
+            <a
+              href="https://policies.google.com/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              Google Play Services / Google Play Billing
+            </a>{' '}
+            — in-app purchases on Android
           </li>
         </ul>
 
-        <p className="mb-4">
-          The Service Provider may disclose User Provided and Automatically Collected Information:
+        <p className="mb-6">
+          We do not sell your personal information. We share data only with these service providers as
+          needed to deliver the Application.
         </p>
 
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">Account and Data Deletion</h2>
+        <p className="mb-4">You can delete your account and associated app data in the following ways:</p>
         <ul className="mb-6 list-disc space-y-2 pl-6">
-          <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
           <li>
-            when they believe in good faith that disclosure is necessary to protect their rights,
-            protect your safety or the safety of others, investigate fraud, or respond to a
-            government request;
+            <strong>In the app:</strong> Settings → Delete Account. This deletes your Firebase account,
+            cloud subscription data, payment methods, transaction history, and local app preferences.
           </li>
           <li>
-            with their trusted services providers who work on their behalf, do not have an
-            independent use of the information we disclose to them, and have agreed to adhere to the
-            rules set forth in this privacy statement.
+            <strong>If you uninstalled the app:</strong> email{' '}
+            <a href="mailto:subwise.apps@gmail.com" className="text-primary hover:underline">
+              subwise.apps@gmail.com
+            </a>{' '}
+            from the email address linked to your account, or visit our{' '}
+            <a href="/delete-account" className="text-primary hover:underline">
+              account deletion page
+            </a>
+            .
           </li>
         </ul>
-
-        <h2 className="mt-8 mb-4 text-2xl font-semibold">Opt-Out Rights</h2>
-
         <p className="mb-6">
-          You can stop all collection of information by the Application easily by uninstalling it.
-          You may use the standard uninstall processes as may be available as part of your mobile
-          device or via the mobile application marketplace or network.
+          Deleting your Subwise account does <strong>not</strong> automatically cancel a Google Play or
+          App Store subscription. You must cancel billing separately in your device&apos;s subscription
+          settings.
         </p>
 
-        <h2 className="mt-8 mb-4 text-2xl font-semibold">Data Retention Policy</h2>
-
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">Data Retention</h2>
         <p className="mb-6">
-          The Service Provider will retain User Provided data for as long as you use the Application
-          and for a reasonable time thereafter. If you'd like them to delete User Provided Data that
-          you have provided via the Application, please contact them at{" "}
-          <a href="mailto:subwise.apps@gmail.com" className="text-primary hover:underline">
-            subwise.apps@gmail.com
-          </a>{" "}
-          and they will respond in a reasonable time.
-        </p>
-
-        <h2 className="mt-8 mb-4 text-2xl font-semibold">Children</h2>
-
-        <p className="mb-4">
-          The Service Provider does not use the Application to knowingly solicit data from or market
-          to children under the age of 13.
-        </p>
-
-        <p className="mb-4">
-          The Application does not address anyone under the age of 13. The Service Provider does not
-          knowingly collect personally identifiable information from children under 13 years of age.
-          In the case the Service Provider discover that a child under 13 has provided personal
-          information, the Service Provider will immediately delete this from their servers. If you
-          are a parent or guardian and you are aware that your child has provided us with personal
-          information, please contact the Service Provider (
-          <a href="mailto:subwise.apps@gmail.com" className="text-primary hover:underline">
-            subwise.apps@gmail.com
-          </a>
-          ) so that they will be able to take the necessary actions.
+          We retain your data while your account is active. When you delete your account, we delete the
+          associated cloud and local app data described above. We may retain limited information where
+          required by law or for fraud prevention.
         </p>
 
         <h2 className="mt-8 mb-4 text-2xl font-semibold">Security</h2>
-
         <p className="mb-6">
-          The Service Provider is concerned about safeguarding the confidentiality of your
-          information. The Service Provider provides physical, electronic, and procedural safeguards
-          to protect information the Service Provider processes and maintains.
+          We use industry-standard safeguards, including encrypted connections (HTTPS/TLS) for data sent
+          to our cloud providers. No method of transmission or storage is completely secure.
         </p>
 
-        <h2 className="mt-8 mb-4 text-2xl font-semibold">Changes</h2>
-
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">Children</h2>
         <p className="mb-6">
-          This Privacy Policy may be updated from time to time for any reason. The Service Provider
-          will notify you of any changes to the Privacy Policy by updating this page with the new
-          Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes,
-          as continued use is deemed approval of all changes.
+          Subwise is not directed to children under 13, and we do not knowingly collect personal
+          information from children under 13. Contact us if you believe a child has provided personal
+          information.
         </p>
 
-        <p className="mb-6">This privacy policy is effective as of 2025-11-04</p>
-
-        <h2 className="mt-8 mb-4 text-2xl font-semibold">Your Consent</h2>
-
+        <h2 className="mt-8 mb-4 text-2xl font-semibold">Changes to This Policy</h2>
         <p className="mb-6">
-          By using the Application, you are consenting to the processing of your information as set
-          forth in this Privacy Policy now and as amended by us.
+          We may update this Privacy Policy from time to time. We will post the updated policy on this
+          page and update the effective date above.
         </p>
 
         <h2 className="mt-8 mb-4 text-2xl font-semibold">Contact Us</h2>
-
         <p className="mb-6">
-          If you have any questions regarding privacy while using the Application, or have questions
-          about the practices, please contact the Service Provider via email at{" "}
+          Questions about this Privacy Policy or your data? Contact{' '}
           <a href="mailto:subwise.apps@gmail.com" className="text-primary hover:underline">
             subwise.apps@gmail.com
           </a>
